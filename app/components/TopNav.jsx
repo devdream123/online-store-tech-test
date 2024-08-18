@@ -13,11 +13,10 @@ const TopNav = () => {
 
   const handleCartIconClick = () => {
     dispatchCart(showCartModal(!cart.isCartOpen));
-    console.log("Cart Icon Clicked");
   };
 
   return (
-    <nav className="bg-red border-gray-200 dark:bg-gray-900 shadow-navbar">
+    <nav className="fixed z-10 bg-white w-full top-0 border-gray-200 dark:bg-gray-900 shadow-navbar">
       <div className="flex flex-wrap items-center justify-between mx-auto p-4 ">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src="logo.svg" width={20} height={25} alt="Logo" />
