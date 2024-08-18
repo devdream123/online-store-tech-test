@@ -1,46 +1,36 @@
-# Welcome to the **Online Store Tech Test** repository
-
-![Online Store Tech Test](https://raw.githubusercontent.com/marcin-piekarski/online-store-tech-test/main/images/online-store-tech-test--preview.png "Online Store Tech Test")
-
-This repository contains a design of a _fake_ online store for the purposes of a technical test.
-
-## Objective
-
-We need you to use **key dependencies** listed below to build a server-side rendered online store using the [Figma](<[https://www.figma.com/file/5oqdRArPHbN33QJjFy1kiG/tech-test-store?node-id=0%3A1](https://www.figma.com/file/5oqdRArPHbN33QJjFy1kiG/tech-test-store?type=design&node-id=0%3A1&mode=design&t=x0nGLpgXwBZtJ90B-1)>)
-) design as a reference.
-
-## Key Dependencies
-
-- Use the provided [Figma](https://www.figma.com/file/5oqdRArPHbN33QJjFy1kiG/tech-test-store?node-id=0%3A1) design
-- [Next.js](https://nextjs.org/) - Either Pages or App Router
-- [Fake Store API](https://fakestoreapi.com/) / [Fake Store API Docs](https://fakestoreapi.com/docs) - Fake store rest API for your e-commerce or shopping website prototype
-- [Lucide](https://lucide.dev/icons/chevron-down)
-
-## What we're looking for...
-
-1. Fork of this Git repository containing a project which includes the above dependencies
-2. Git commit messages which give us an idea of your workflow
-3. Product listing page that displays products fetched from the [Fake Store API](https://fakestoreapi.com/) with each product card displaying an add to cart button
-4. Dismissable overlay for the cart, checkout and order confirmation
-5. Mock shipping/payment form in the checkout overlay with some basic validation
-6. Product content that's server rendered
-
-## What we're leaving up to you...
-
-- It's up to you on how simple/complex you'd like to make the project
-- It's up to you whether you use either the Pages or App Router in Next.js
-- Add whatever additional dependencies that you'd like (ie. styling, fetch, etc, etc)
-- Use whatever project structure you're comfortable with
-- Use typescript if you'd like
-
-For bonus points, if time permits, we'd be over the moon to see:
-
-- Docker
-- A "Backend-for-Frontend" type API
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-1. Fork this Git Repository
-2. Setup your project using the above dependencies
-3. Build your project using the provided design as a guide
-4. Share your Git Repository when your ready
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
