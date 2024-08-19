@@ -15,6 +15,7 @@ const CheckoutModalForm = () => {
     formState: { errors },
   } = useForm<Inputs>();
 
+  //TODO:  Move React Hook Form to a Provider
   const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
   return (
     <div>
